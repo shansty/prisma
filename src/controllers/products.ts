@@ -74,3 +74,7 @@ export const getProductById = async (req: Request, res: Response) => {
         throw new NotFoundException("Product not found", ErrorCode.PRODUCT_NOT_FOUND)
     }
 }
+
+export const searchProducts = async (req: Request, res: Response) => {
+    
+}
